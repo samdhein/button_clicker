@@ -1,0 +1,85 @@
+/* CSS */
+* {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+ }
+ /* Classes */
+ .flex {
+    display: flex;
+ }
+ .navbar {
+    background-color: grey;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 1% 10%;
+ }
+ .main {
+    margin: 0% 10%;
+    gap: 10px;
+ }
+ .col-1 {
+    flex: 2;
+ }
+ .col-2 {
+    flex: 1;
+ }
+ .panel {
+    padding: 2%;
+    align-items: center;
+    border: 2pt black solid;
+    margin-top: 10px;
+ }
+ .icons {
+    flex: 1;
+    text-align: center;
+ }
+ .pos {
+    font-style: italic;
+ }
+ .smol {
+     font-size: 80%;
+     margin-top: 2%;
+ }
+ .big {
+     font-size: 120%;
+ }
+ .center {
+     text-align: center;
+ }
+ .bold {
+     font-style: bold;
+ }
+ .definition{
+    flex: 4;
+    align-items: center;
+    margin-left: 3%;
+ }
+ /* IDs */
+#searchbar{
+    padding: 0.5% 1%;
+}
+ #logbut {
+    color: white;
+    background-color: dodgerblue;
+    padding: 0.5% 1%;
+    border: 1pt black solid;
+    box-shadow: 2px 2px black;
+}
+#likebut {
+    color: black;
+    background-color: yellow;
+    padding: 1% 2%;
+    border: 1pt black solid;
+    box-shadow: 2px 2px black;
+    margin-top: 5%;
+}
+#defbut {
+    color: black;
+    background-color: green;
+    font-size: 110%;
+    padding: 1% 2%;
+    border: 1pt black solid;
+    box-shadow: 2px 2px black;
+    margin-top: 5%;
+}
